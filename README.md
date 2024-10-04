@@ -19,7 +19,7 @@ Este es un proyecto de Android que utiliza la API de [Rick and Morty](https://ri
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/rick-and-morty-viewer.git
+   git clone https://github.com/luisdav1/Proyect-Recycler-View
 2. Asegúrate de tener configuradas las dependencias en el archivo `build.gradle`:
    ```gradle
    implementation ('com.squareup.retrofit2:retrofit:2.9.0')
