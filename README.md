@@ -11,7 +11,7 @@ Este es un proyecto de Android que utiliza la API de [Rick and Morty](https://ri
 
 - **Java**: Lenguaje de programación principal.
 - **Retrofit**: Biblioteca para consumir APIs RESTful.
-- **Glide**: Biblioteca para cargar y manejar imágenes.
+- **Picasso**: Biblioteca para cargar y manejar imágenes.
 - **Parcelable**: Para pasar objetos entre actividades de forma eficiente.
 - **RecyclerView**: Para mostrar una lista de elementos en formato de tarjetas.
 
@@ -22,9 +22,9 @@ Este es un proyecto de Android que utiliza la API de [Rick and Morty](https://ri
    git clone https://github.com/tuusuario/rick-and-morty-viewer.git
 2. Asegúrate de tener configuradas las dependencias en el archivo `build.gradle`:
    ```gradle
-   implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-   implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-   implementation 'com.github.bumptech.glide:glide:4.12.0'
+   implementation ('com.squareup.retrofit2:retrofit:2.9.0')
+   implementation ('com.squareup.retrofit2:converter-gson:2.9.0')
+   implementation ('com.squareup.picasso:picasso:2.71828')
 3. Ejecuta el proyecto en un dispositivo o emulador Android.
 
 ## Uso
